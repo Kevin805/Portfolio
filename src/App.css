@@ -1,14 +1,26 @@
 .logo {
-  width: 12rem;
+  width: 4rem;
+  
 }
 
 .logo2 {
-  width: 12rem;
+  width: 10rem;
 }
 
 .name {
-  width: 35rem;
-  margin-left: 10rem;
+  width: 32rem;
+  margin-left: 4rem;
   margin-right: 5rem;
-
 }
+
+nav a.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.4rem;
+  cursor: pointer;
+  margin-left: 2.5rem;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
