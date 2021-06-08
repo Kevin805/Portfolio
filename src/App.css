@@ -13,5 +13,16 @@ nav a.nav-link {
   padding-bottom: 1rem;
 }
 
+nav ul li {
+  text-transform: uppercase;
+}
 
+.navbar .navbar-collapse {
+  text-align: right;
+  padding-right: 5mm;
+}
+
+.nav-item {
+  margin-top: 2.5mm;
+}
 
