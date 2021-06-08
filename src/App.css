@@ -26,3 +26,7 @@ nav ul li {
   margin-top: 2.5mm;
 }
 
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-top: .2rem solid salmon;
+}
+
