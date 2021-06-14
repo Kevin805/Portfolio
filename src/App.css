@@ -59,13 +59,12 @@ nav ul li {
   text-align: center;
 }
 
-.main-info h1 {
-  color: antiquewhite;
-}
 
 .typed-text {
-  font-size: 1.5rem;
-  color: whitesmoke;
+  padding-top: 7rem;
+  font-size: 1.75rem;
+  color: rgb(249, 233, 193);
+  font-family: Oswald;
 }
 
 .tsparticles-canvas-el {
