@@ -32,10 +32,18 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-  border-top: .15rem solid salmon;
+  border-top: .15rem solid rgb(240, 225, 168);
 }
 
 .navbar-nav > li > a:hover {
-  border-top: .15rem solid salmon;
+  border-top: .15rem solid rgb(240, 225, 168);
 }
 
+.header-wraper {
+  position: relative;
+  background: url(backgroundimage.jpeg) no-repeat;
+  background-size: cover;
+  background-position: cover; 
+  height: 90vh;
+  
+}
