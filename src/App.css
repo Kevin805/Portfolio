@@ -3,6 +3,10 @@
   margin-left: .5rem;
 }
 
+nav {
+  z-index: 2;
+}
+
 
 nav a.nav-link {
   font-weight: 500;
@@ -60,7 +64,13 @@ nav ul li {
 }
 
 .typed-text {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: whitesmoke;
-  
+}
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
 }
