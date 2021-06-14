@@ -45,5 +45,22 @@ nav ul li {
   background-size: cover;
   background-position: cover; 
   height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: column;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info h1 {
+  color: antiquewhite;
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: whitesmoke;
   
 }
