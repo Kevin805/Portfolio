@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Router>
-        <Route path="/" component= {Portfolio} />
+        <Route path="/Portfolio" component= {Portfolio} />
       </Router>
       <Particles 
         params={{
