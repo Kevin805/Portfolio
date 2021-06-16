@@ -1,39 +1,19 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import "bootstrap/dist/css/bootstrap.min.css";
-import Header from './components/Header';
-import Particles from "react-particles-js";
-import { BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom";
-import Portfolio from "./pages/Portfolio";
- 
+import React from "react";
+import Home from './pages/Home';
+import { Route } from "react-router-dom";
+import Portfolio from './pages/Portfolio';
+import About from './pages/About';
+import Contact from './pages/Contact';
+
 function App() {
   return (
-    <div>
-      <Router>
-        <Route path="/Portfolio" component= {Portfolio} />
-      </Router>
-      <Particles 
-        params={{
-          particles: {
-            number: {
-              value: 35,
-              density: {
-                enable:true,
-                value_area: 900,
-              }
-            },
-            shape: {
-              type: "triangle",
-              stroke: {
-                width: 2,
-                color: "#f9ab"
-              }
-            }
-          }
-        }}
-      />
-      <Navbar />
-      <Header />
+    <div className="app">
+      <Route exact path="/" component={Home} />
+      <Route exact path="/portfolio" component={Portfolio} />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/contact" component={Contact} />
+      
     </div>
   );
 }

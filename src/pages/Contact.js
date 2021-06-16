@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
-function Portfolio() {
+function Contact() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
@@ -19,7 +19,7 @@ function Portfolio() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                 <Link to="/Portfolio">Portfolio</Link> 
+                 <Link to="/About">Portfolio</Link> 
               </li>
               <li className="nav-item">
                  <Link to="/About">About</Link> 
@@ -34,4 +34,4 @@ function Portfolio() {
     )
 }
 
-export default Portfolio;
+export default Contact;

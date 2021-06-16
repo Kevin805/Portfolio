@@ -1,13 +1,14 @@
 import React from "react";
-import logo from "../logo.png";
-import '../App.css';
+import logo from "./logo.png";
+import './App.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
-function Portfolio() {
+
+const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
           <a className="navbar-brand"><img className="logo" src={logo} alt="logo..."/>
           </a>
@@ -34,4 +35,4 @@ function Portfolio() {
     )
 }
 
-export default Portfolio;
+export default Navbar;
