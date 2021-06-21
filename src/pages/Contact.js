@@ -7,7 +7,8 @@ import { Link } from "react-router-dom";
 
 function Contact() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <div>
+     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
           <a className="navbar-brand"><img className="logo" src={logo} alt="logo..."/>
           </a>
@@ -30,7 +31,8 @@ function Contact() {
             </ul>
           </div>
       </div>
-    </nav>
+     </nav>
+    </div>
     )
 }
 
