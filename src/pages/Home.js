@@ -11,14 +11,14 @@ function Home() {
         params={{
           particles: {
             number: {
-              value: 30,
+              value: 35,
               density: {
                 enable:true,
-                value_area: 800,
+                value_area: 850,
               }
             },
             shape: {
-              type: "triangle",
+              type: "circle",
               stroke: {
                 width: 2.2,
                 color: "#f9ab"
