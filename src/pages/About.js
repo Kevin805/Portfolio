@@ -19,7 +19,7 @@ function About() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                 <Link to="/Portfolio">Portfolio</Link> 
+                 <Link to="/Portfolio">Work</Link> 
               </li>
               <li className="nav-item">
                  <Link to="/About">About</Link> 
