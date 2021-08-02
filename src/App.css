@@ -13,16 +13,16 @@ nav {
 nav a.nav-link {
   font-weight: 500;
   font-size: 7px;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.35rem;
   cursor: pointer;
-  margin-left: 2.5rem;
+  margin-left: 2.4rem;
 }
 
 
 nav ul li {
   text-transform: uppercase;
   font-family: Montserrat;
-  padding-bottom: 15px;
+  padding-bottom: 14px;
 
 }
 
@@ -44,11 +44,11 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-  border-top: .15rem solid rgb(240, 225, 168);
+  border-top: .15rem solid rgb(233, 221, 174);
 }
 
 .navbar-nav > li > a:hover {
-  border-top: .15rem solid rgb(240, 225, 168);
+  border-top: .15rem solid rgb(233, 221, 174);
 }
 
 .header-wraper {
