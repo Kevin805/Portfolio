@@ -36,19 +36,19 @@ nav ul li {
 }
 
 .navbar-nav > li > a {
-  margin-right: 3.5rem;
-  margin-left: 2.5rem;
-  font-size: 20px;
+  margin-right: 3.55rem;
+  margin-left: 2.55rem;
+  font-size: 18px;
   text-decoration: none;
   color: black;
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-  border-top: .15rem solid rgb(233, 221, 174);
+  border-top: .15rem solid rgb(228, 219, 183);
 }
 
 .navbar-nav > li > a:hover {
-  border-top: .15rem solid rgb(233, 221, 174);
+  border-top: .15rem solid rgb(228, 219, 183);
 }
 
 .header-wraper {
@@ -56,7 +56,7 @@ nav ul li {
   background: url(backgroundimage.jpeg) no-repeat;
   background-size: cover;
   background-position: cover; 
-  height: 90vh;
+  height: 1000vh;
 }
 
 .main-info {
