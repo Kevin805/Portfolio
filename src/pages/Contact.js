@@ -17,22 +17,7 @@ function Contact() {
           aria-expanded="false" aria-label="Toggle navigation">
             <FontAwesomeIcon icon={faBars}/>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item active">
-                 <Link to="/About">Work</Link> 
-              </li>
-              <li className="nav-item">
-                 <Link to="/About">About</Link> 
-              </li>
-              <li className="nav-item">
-                 <Link to="/Contact">Contact</Link> 
-              </li>
-              <li className="nav-item">
-                 <Link to="/Home">Home</Link> 
-              </li>
-            </ul>
-          </div>
+          
       </div>
      </nav>
     </div>
