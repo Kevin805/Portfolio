@@ -44,11 +44,11 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-  border-top: .175rem solid rgb(208, 199, 166);
+  border-top: .175rem solid rgb(220, 209, 168);
 }
 
 .navbar-nav > li > a:hover {
-  border-top: .175rem solid rgb(208, 199, 166);
+  border-top: .175rem solid rgb(220, 209, 168);
 }
 
 .header-wraper {
