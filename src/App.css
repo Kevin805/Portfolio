@@ -36,19 +36,19 @@ nav ul li {
 }
 
 .navbar-nav > li > a {
-  margin-right: 4.5rem;
-  margin-left: 3.5rem;
-  font-size: 16px;
+  margin-right: 4.75rem;
+  margin-left: 3.75rem;
+  font-size: 14px;
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-  border-top: .15rem solid rgb(208, 199, 166);
+  border-top: .175rem solid rgb(208, 199, 166);
 }
 
 .navbar-nav > li > a:hover {
-  border-top: .2rem solid rgb(208, 199, 166);
+  border-top: .175rem solid rgb(208, 199, 166);
 }
 
 .header-wraper {
