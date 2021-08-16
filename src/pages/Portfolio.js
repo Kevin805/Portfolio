@@ -11,16 +11,16 @@ function Portfolio() {
         params={{
           particles: {
             number: {
-              value: 30,
+              value: 35,
               density: {
                 enable:true,
-                value_area: 800,
+                value_area: 850,
               }
             },
             shape: {
               type: "triangle",
               stroke: {
-                width: 2.2,
+                width: 2.4,
                 color: "#f9ab"
               }
             }
