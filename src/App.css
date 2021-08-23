@@ -35,13 +35,7 @@ nav ul li {
   margin-top: 2.5mm;
 }
 
-.navbar-nav > li > a {
-  margin-right: 4.75rem;
-  margin-left: 3.75rem;
-  font-size: 14px;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-}
+
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
   border-top: .175rem solid rgb(220, 209, 168);
