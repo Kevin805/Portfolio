@@ -11,18 +11,18 @@ nav {
 
 
 nav a.nav-link {
-  font-weight: 450;
-  font-size: 7.5px;
-  letter-spacing: 0.3rem;
+  font-weight: 500;
+  font-size: 7.25px;
+  letter-spacing: 0.25rem;
   cursor: pointer;
-  margin-left: 2.5rem;
+  margin-left: 2.75rem;
 }
 
 
 nav ul li {
   text-transform: uppercase;
   font-family: Montserrat;
-  padding-bottom: 14.5px;
+  padding-bottom: 14px;
 
 }
 
