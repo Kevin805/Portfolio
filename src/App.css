@@ -2,7 +2,8 @@
 
 .logo {
   width: 30rem;
-  margin-left: .75rem;
+  height: 2.5rem;
+  margin-left: 2.5rem;
 }
 
 nav {
@@ -12,7 +13,7 @@ nav {
 
 nav a.nav-link {
   font-weight: 500;
-  font-size: 7.25px;
+  font-size: 14px;
   letter-spacing: 0.25rem;
   cursor: pointer;
   margin-left: 2.75rem;
@@ -38,7 +39,7 @@ nav ul li {
 .navbar-nav > li > a {
   margin-right: 4.55rem;
   margin-left: 3.55rem;
-  font-size: 12px;
+  font-size: 20px;
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
@@ -51,13 +52,6 @@ nav ul li {
   border-top: .175rem solid rgb(194, 189, 166);
 }
 
-.header-wraper {
-  position: relative;
-  background: url(backgroundimage.jpeg) no-repeat;
-  background-size: cover;
-  background-position: cover; 
-  height: 1000vh;
-}
 
 .main-info {
   display: flex;
