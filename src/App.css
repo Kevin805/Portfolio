@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 .logo {
-  width: 30rem;
-  height: 2.5rem;
-  margin-left: 2.5rem;
+  width: 40rem;
+  height: 10rem;
+  margin-left: -5rem;
 }
 
 nav {
   z-index: 2;
 }
+nav .navbar-brand{
+  background-color: rgb(136, 177, 146);
+}
+
 
 
 nav a.nav-link {
@@ -45,11 +49,11 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-  border-top: .175rem solid rgb(194, 189, 166);
+  border-top: .175rem solid rgb(116, 116, 116);
 }
 
 .navbar-nav > li > a:hover {
-  border-top: .175rem solid rgb(194, 189, 166);
+  border-top: .175rem solid rgb(116, 116, 116);
 }
 
 

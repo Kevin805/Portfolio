@@ -6,27 +6,19 @@ import Particles from "react-particles-js";
 function Portfolio() {
   return (
     <div>
+      <Navbar />
       <Particles 
         params={{
-          particles: {
-            number: {
-              value: 35,
-              density: {
-                enable:true,
-                value_area: 850,
+          particles: { number: { value: 12, density: {
+                enable:true, value_area: 850
               }
             },
-            shape: {
-              type: "triangle",
-              stroke: {
-                width: 2.4,
-                color: "#f9ab"
-              }
+            shape: { type: "circle", stroke: {
+                width: 5, color: "#f9ab"
+              }}
             }
-          }
         }}
       />
-      <Navbar />
     </div>
   );
 }

@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
-     <nav className="navbar navbar-expand-lg navbar-light bg-light">
+     <nav className="navbar navbar-expand-lg">
       <div className="container">
           <a className="navbar-brand"><img className="logo" src={logo} alt="logo..."/>
           </a>
@@ -19,17 +19,17 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item active">
-                 <Link to="/Portfolio">Projects</Link> 
-              </li>
               <li className="nav-item">
                  <Link to="/About">About</Link> 
+              </li>
+              <li className="nav-item active">
+                 <Link to="/Portfolio">Work</Link> 
               </li>
               <li className="nav-item">
                  <Link to="/Contact">Contact</Link> 
               </li>
               <li className="nav-item">
-                 <Link to="/Home">Home</Link> 
+                 <Link to="/">Home</Link> 
               </li>
             </ul>
           </div>
